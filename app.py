@@ -41,9 +41,6 @@ else:
 # -- CSS Styling --
 st.markdown("""
 <style>
-body {
-    background-color: #121212;
-}
 .leaderboard {
     width: 100%;
     border-collapse: collapse;
@@ -52,28 +49,28 @@ body {
     margin-top: 20px;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 4px 12px rgba(255,255,255,0.05);
-    background-color: #1e1e1e;
-    color: #f1f1f1;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    color: #222222;
 }
 .leaderboard thead {
-    background-color: #2d2d2d;
-    color: #f1f1f1;
+    background-color: #f2f2f2;
+    color: #222222;
 }
 .leaderboard th, .leaderboard td {
     text-align: left;
     padding: 12px;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #e0e0e0;
     vertical-align: middle;
 }
 .leaderboard tr:nth-child(even) {
-    background-color: #1a1a1a;
+    background-color: #fafafa;
 }
 .leaderboard tr:nth-child(odd) {
-    background-color: #252525;
+    background-color: #ffffff;
 }
 .leaderboard .top {
-    background-color: #3b3b12 !important;
+    background-color: #fff7cc !important;
 }
 img.avatar {
     border-radius: 50%;
@@ -82,15 +79,15 @@ img.avatar {
     object-fit: cover;
 }
 .score-green {
-    color: #8bc34a;
+    color: #2e7d32;
     font-weight: bold;
 }
 .score-orange {
-    color: #ffc107;
+    color: #f9a825;
     font-weight: bold;
 }
 .score-red {
-    color: #e57373;
+    color: #c62828;
     font-weight: bold;
 }
 </style>
