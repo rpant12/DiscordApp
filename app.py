@@ -9,7 +9,7 @@ def load_data():
     return df
 
 st.set_page_config(page_title="Scrandle Leaderboard", layout="wide")
-st.markdown("<h1 style='font-size: 40px; color: #f1f1f1;'>🏆 Scrandle Leaderboard</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='font-size: 40px>🏆 Scrandle Leaderboard</h1>", unsafe_allow_html=True)
 
 # -- Filter controls
 col1, col2, col3 = st.columns(3)
